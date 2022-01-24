@@ -1,7 +1,7 @@
 ---
 layout: service
 title: "Strategy & Research"
-icon: "/assets/images/icon_1.png"
+icon: "/assets/images/icon_2.png"
 post_image: "/assets/images/services/07.jpg"
 ---
 
