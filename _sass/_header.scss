@@ -28,7 +28,7 @@
 						}
 						.deneb_btn{
 							padding: 0;
-							color: $white;
+							color: #000;
 						}
 						& ul.sub-menu{
 							position: absolute;
@@ -51,7 +51,7 @@
 								margin:0;
 								& a{
 									padding: 5px 20px;
-									color: $text;
+									color: #000;
 								}
 								&:hover{
 									& ul.sub-menu{
@@ -224,4 +224,8 @@
 	.site_menu{
 		padding: 10px 0;
 	}
+}
+.header_logo {
+	width: 80px;
+	height: 100%;
 }

@@ -122,17 +122,17 @@ body{
 	display: inline-block;
 	min-width: 127px;
 	height: 45px;
-	color: $white;
+	color: #000;
 	font: 500 15px $font1;
 	text-align: center;
-	background: $theme_color;
+	background: #f1ea19;
 	line-height: 45px;
 	border-radius: 23px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	@include transition(.5s);
 	&:hover,&:focus{
-		color: $white !important;
+		color: #edecf0 !important;
 		box-shadow: 2.5px 4.33px 15px 0px rgba(254, 176, 0, 0.4);
 	}
 }
@@ -144,10 +144,10 @@ body{
 		font-weight: 900;
 		font-family: "Font Awesome 5 Free";
 		margin-right: 10px;
-		color: $theme_color;
+		color: #f1ea19;
 	}
 	&:hover,&:focus{
-		color: $theme_color;
+		color: #f1ea19;
 	}
 }
 .form_control{
@@ -213,4 +213,13 @@ input.form_control{
     height: 72px;
     opacity: 0;
   }
+}
+.fas {
+	color: #f1ea19;
+}
+.fab {
+	background: #f1ea19;
+	&:hover {
+		background: #f1ea19;
+	}
 }
