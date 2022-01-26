@@ -14,21 +14,21 @@
 
 		<div class="row">
 			<div class="col-lg-12">
-                <div class="row row-cols-1  row-cols-md-4">
-                    {% for member in site.team %}
-					<div class="col mb-4">
-                        <div class="card" style="width: 18rem;">
-                            <div style="background-image:url('{{member.image}}');"  class="card-img-top team-member-image" alt="..."></div>
-                            <div class="card-body">
-							<h5 class="card-title">{{member.name}}</h5>
-                            <h6 class="card-title">{{member.title}}</h6>
-                            </div>
-                        </div>
+				<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
+					{% for member in site.team %}
+					<div class="col mb-4 image-column">
+						<div class="card h-100 mw-18-rem" >
+							<div style="background-image:url('/assets/images/headshots/nana_o.jpg');" class="card-img-top team-member-image" alt="{{member.name}}"></div>
+							<div class="card-body">
+								<h5 class="card-title">{{member.name}}</h5>
+								<h6 class="card-title">{{member.title}}</h6>
+							</div>
+						</div>
 					</div>
-                    {% endfor %}
-                </div>
+					{% endfor %}
+				</div>
 			</div>
-		</div>	
+		</div>
 
 	</div>
 </section>
