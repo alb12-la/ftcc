@@ -38,6 +38,11 @@ collections:
     output:true:
   past_events:
   events:
+    order:
+        - spring-event.md
+        - summer-jam.md
+        - fall-feast.md
+
     
   
 # Exclude from processing.
