@@ -1,0 +1,67 @@
+<!-- Start deneb_project section -->
+<section class="deneb_project section_padding">
+    <div class="shape_v3">
+        <img src="/assets/images/shape/shape_10.png" class="shape_10" alt="">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section_title text-center">
+                    <h2>Events</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="container mx-w-600">
+
+                    <!-- Upcoming Events -->
+                    <div class="mb-3 text-center">
+                        <h3>Upcoming Events</h3>
+                    </div>
+                    {% for event in site.events %}
+                    <div class="event-card mb-2">
+                        <div class="card-body text-center d-flex flex-column align-items-center justify-content-center">
+                            <h4 class="card-title">{{event.title}}</h4>
+
+                            <h6 class="card-subtitle mb-0 text-muted">
+                                <!-- If event.date exists -->
+                                {% if event.date %}
+                                    <!-- show date -->
+                                    {{ event.date | date: "%B %-d, %Y" }}
+                                {% else %}
+                                    <!-- show TBD-->
+                                    TBD
+                                {% endif %}
+                            </h6>
+                        </div>
+                    </div>
+                    {% endfor %}ˇ
+
+                    <!-- Past Events -->
+                    <div class="mb-3 text-center">
+                        <h3>Past Events</h3>
+                    </div>
+                    {% for event in site.past_events %}
+                    <div class="card">
+                        <div class="card-body text-center ">
+                            <h4 class="card-title">{{event.title}}</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">{{ event.date | date: "%B %-d, %Y" }}</h6>
+                            {% if event.images %}
+                                <div class="d-flex flex-row justify-content-center mt-3">
+                                    {% for image in event.images %}
+                                    <div class="circle-img mx-1" style="background-image:url('{{image}}');"></div>
+                                    {% endfor %}
+                                </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- End deneb_project section -->

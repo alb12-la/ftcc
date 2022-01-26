@@ -36,6 +36,9 @@ collections:
     output: true  
   team:
     output:true:
+  past_events:
+  events:
+    
   
 # Exclude from processing.
 # The following items will not be processed, by default.
