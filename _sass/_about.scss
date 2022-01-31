@@ -182,7 +182,7 @@
 			    display: inline-block;
 			    width: 96px;
 			    height: 67px;
-			    z-index: -1;
+			    z-index: 1;
 			}
 		}
 	}
@@ -324,7 +324,7 @@
 }
 #about-us-section {
 	background-color: #000;
-	margin-top: 50px;
+	padding:50px;
 }
 #ful-logo {
 	width: 400px;
