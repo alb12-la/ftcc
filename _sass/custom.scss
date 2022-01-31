@@ -34,3 +34,31 @@
 .mx-w-600 {
   max-width: 600px;
 }
+
+.intro {
+width: 100%;
+min-height: 40em;
+margin: auto;
+
+background-image: url("/assets/images/fuleventimg/FUL Event 2.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.vision-section {
+  background-color: rgba(255, 255, 255, 0.90);
+  padding: 40px 80px 40px 80px;
+  border-radius: 25px;
+  margin-top: 10em;
+}
+
+
+.vision_title {
+  z-index: 2;
+}
+
+
+.vision-text {
+  color: #000;
+}
