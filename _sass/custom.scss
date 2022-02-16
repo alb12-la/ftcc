@@ -40,7 +40,7 @@
 width: 100%;
 min-height: 40em;
 margin: auto;
-
+margin-top: 20px;
 background-image: url("/assets/images/fuleventimg/FUL Event 2.jpg");
 background-size: cover;
 background-position: center;
@@ -89,4 +89,9 @@ width: 500px;
 height: 300px;
 object-fit: cover;
 box-shadow: 2.5px 4.33px 15px 0px #000;
+}
+
+.mobileheader_logo {
+  width: 80px;
+	height: 100%;
 }
