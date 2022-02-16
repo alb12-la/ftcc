@@ -15,7 +15,9 @@
 					{% for member in site.team %}
 					<div class="col mb-4 image-column">
 						<div class="card h-100 mw-18-rem" >
-							<div style="background-image:url('/assets/images/headshots/nana_o.jpg');" class="card-img-top team-member-image" alt="{{member.name}}"></div>
+							<div class="card-img-top" alt="{{member.name}}">
+								<img class="team-member-image card-img-top" src="{{member.image}}" alt="Card image cap">
+							</div>
 							<div class="card-body">
 								<h5 class="card-title">{{member.name}}</h5>
 								<h6 class="card-title">{{member.title}}</h6>

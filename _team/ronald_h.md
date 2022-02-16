@@ -1,5 +1,5 @@
 ---
 name: Ronald Hill
 title: "Founding Board Member"
-image: "/assets/images/headshots/ronald_h.jpg"
+image: "assets/images/FUL_headshotreplace.jpg"
 ---

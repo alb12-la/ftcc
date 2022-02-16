@@ -1,5 +1,5 @@
 ---
 name: Chandace Campbell 
 title: "Founding Board Member"
-image: "/assets/images/headshots/candace_c.jpg"
+image: "assets/images/FUL_headshotreplace.jpg"
 ---
