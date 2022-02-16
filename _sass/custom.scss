@@ -53,6 +53,7 @@ background-repeat: no-repeat;
   border-radius: 25px;
   margin-top: 40em;
   margin-bottom: 0px;
+  box-shadow: 2.5px 4.33px 15px 0px rgb(43, 28, 0);
 }
 
 
@@ -80,4 +81,12 @@ background-repeat: no-repeat;
 }
 .about-us-section {
 	color: #fff;
+}
+
+
+.value_img_box {
+width: 500px;
+height: 300px;
+object-fit: cover;
+box-shadow: 2.5px 4.33px 15px 0px #000;
 }
