@@ -30,6 +30,7 @@
 	.deneb_content_box{
 		h2{
 			position: relative;
+			text-align: justify;
 			&:after{
 			    position: absolute;
 			    content: '';
