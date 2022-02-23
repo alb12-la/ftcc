@@ -39,16 +39,16 @@
 					    line-height: 30px;
 					    text-align: center;
 					    border-radius: 50%;
-					    background-color: #fcf9a5;
+					    background-color: rgba(154, 4, 134, 0.397);
 					    color: #000;
 					    font-size: 14px;
 					    @include transition( all .5s);
 					    &:hover,&:focus{
-							background-image: -moz-linear-gradient( 0deg, rgb(241, 234, 25) 0%, rgb(241, 234, 25) 100%);
-							background-image: -webkit-linear-gradient( 0deg, rgb(241, 234, 25) 0%, rgb(241, 234, 25) 100%);
-							background-image: -ms-linear-gradient( 0deg, rgb(241, 234, 25) 0%, rgb(241, 234, 25) 100%);
+							background-image: -moz-linear-gradient( 0deg, rgb(154, 4, 133) 0%, rgb(154, 4, 133) 100%);
+							background-image: -webkit-linear-gradient( 0deg, rgb(154, 4, 133) 0%, rgb(154, 4, 133) 100%);
+							background-image: -ms-linear-gradient( 0deg, rgb(154, 4, 133) 0%, rgb(154, 4, 133) 100%);
 					    	color: $white;
-					    	box-shadow: 2.5px 4.33px 15px 0px rgba(254, 176, 0, 0.4);
+					    	box-shadow: 2.5px 4.33px 15px 0px rgba(77, 3, 70, 0.4);
 					    }
 	    			}
 	    		}
