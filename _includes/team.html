@@ -12,7 +12,8 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
-					{% for member in site.team %}
+					{% assign sorted = site.team | sort: 'order' | reverse %}
+					{% for member in sorted %}
 					<div class="col mb-4 image-column">
 						<div class="card h-100 mw-18-rem" >
 							<div class="card-img-top" alt="{{member.name}}">
