@@ -1,9 +1,9 @@
 .card-img-top.team-member-image {
   height: 287px;
   width: 100%;
-  object-fit: cover;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: top; 
 }
 
 .image-column {
