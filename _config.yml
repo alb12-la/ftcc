@@ -21,6 +21,8 @@ facebook_url: "https://www.facebook.com/fultreasurescc/"
 # twitter_url: "https://twitter.com/"
 instagram_url: "https://www.instagram.com/fultreasurescc/"
 
+donate_link: "https://www.paypal.com/donate?token=za7rR5cp7ryaWc29hSmRc3yfIKOEZbsz9frhoGyTbEt8uGCkN_Sld1j4ClIKq002JtkHfwCoajHzLj4Q"
+
 hero_image: "/assets/images/breadcrumb_bg.jpg"
 
 sass:
